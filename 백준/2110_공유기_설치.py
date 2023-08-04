@@ -15,7 +15,7 @@ while start <= end:
     for i in range(n):
         if house[i] >= distance + tmp:
             tmp = house[i]
-          치  cnt += 1
+            cnt += 1
 
     if cnt >= c:
         start = distance + 1
