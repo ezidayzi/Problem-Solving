@@ -17,5 +17,6 @@ def dfs(result, n, picked):
             dfs(result+card[i], n+1, picked)
             picked.pop()
 
+
 dfs("", 0, [])
 print(len(card_list))
